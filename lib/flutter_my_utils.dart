@@ -1,4 +1,4 @@
-library flutter_utils;
+library flutter_my_utils;
 
 /// A Calculator.
 class Calculator {
