@@ -1,7 +1,7 @@
-name: flutter_utils
+name: flutter_my_utils
 description: flutter common utils project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/592116366/flutter_common_utils.git
 
 environment:
   sdk: '>=2.18.6 <3.0.0'
