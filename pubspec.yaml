@@ -10,6 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # https://github.com/a14n/dart-decimal
+  rational: ">=2.0.0 <5.0.0"  
+  # https://github.com/a14n/dart-decimal
+  decimal: ">=2.0.0 <5.0.0"  
 
 dev_dependencies:
   flutter_test:
