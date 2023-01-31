@@ -1,8 +1,8 @@
 # Basic Utils
 
-[![pub package](https://img.shields.io/pub/v/basic_utils.svg?logo=dart&logoColor=00b9fc)](https://pub.dev/packages/basic_utils)
+[![pub package](https://img.shields.io/pub/v/flutter_my_utils.svg?logo=dart&logoColor=00b9fc)](https://pub.dev/packages/flutter_my_utils)
 [![Null Safety](https://img.shields.io/badge/null-safety-brightgreen)](https://dart.dev/null-safety)
-[![License](https://img.shields.io/github/license/ephenodrom/Dart-Basic-Utils?logo=open-source-initiative&logoColor=green)](https://github.com/Ephenodrom/Dart-Basic-Utils/blob/master/LICENSE)
+
 
 A dart package for many helper methods fitting different situations.
 
@@ -17,24 +17,6 @@ A dart package for many helper methods fitting different situations.
   - [Util Classes](#util-classes)
     - [StringUtils](#stringutils)
     - [DomainUtils](#domainutils)
-    - [EmailUtils](#emailutils)
-    - [MathUtils](#mathutils)
-    - [HttpUtils](#httputils)
-    - [DnsUtils](#dnsutils)
-    - [SortUtils](#sortutils)
-    - [ColorUtils](#colorutils)
-    - [DateUtils](#dateutils)
-    - [X509Utils](#x509utils)
-    - [IterableUtils](#iterableutils)
-    - [CryptoUtils](#cryptoutils)
-    - [ASN1Utils](#asn1utils)
-    - [EnumUtils](#enumutils)
-    - [BooleanUtils](#booleanutils)
-    - [FunctionDefs](#functiondefs)
-  - [Changelog](#changelog)
-  - [Real Live Examples](#real-live-examples)
-    - [SSL Toolkit](#ssl-toolkit)
-  - [Copyright and license](#copyright-and-license)
 
 ## Preamble
 
@@ -50,7 +32,7 @@ Update pubspec.yaml and add the following line to your dependencies.
 
 ```yaml
 dependencies:
-  basic_utils: ^5.4.3
+  flutter_my_utils: ^0.0.1
 ```
 
 ## Import
@@ -58,7 +40,7 @@ dependencies:
 Import the package with :
 
 ```dart
-import 'package:basic_utils/basic_utils.dart';
+import 'package:flutter_my_utils/basic_utils.dart';
 ```
 
 ## Util Classes
@@ -118,7 +100,7 @@ String toIDN(String domain);
 String fromIDN(String domain)
 ```
 
-### EmailUtils
+<!-- ### EmailUtils
 
 Helper class for operations on email addresses.
 
@@ -179,9 +161,9 @@ int rRecordTypeToInt(RRecordType type);
 Future<List<RRecord>?> reverseDns(String ip,{DnsApiProvider provider = DnsApiProvider.GOOGLE});
 String? getReverseAddr(String ip);
 String toBind(RRecord record);
-```
+``` -->
 
-### SortUtils
+<!-- ### SortUtils
 
 Helper class for sorting lists. Implementation of different sorting algorithms.
 
@@ -397,4 +379,4 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+SOFTWARE. -->
