@@ -15,7 +15,8 @@ A dart package for many helper methods fitting different situations.
     - [pubspec.yaml](#pubspecyaml)
   - [Import](#import)
   - [Util Classes](#util-classes)
-    - [StringUtils](#stringutils)
+    - [UriUtil](#uriutil)
+    - [StringUtil](#stringutil)
     - [DomainUtils](#domainutils)
 
 ## Preamble
@@ -40,14 +41,24 @@ dependencies:
 Import the package with :
 
 ```dart
-import 'package:flutter_my_utils/basic_utils.dart';
+import 'package:flutter_my_utils/flutter_my_utils.dart';
 ```
 
 ## Util Classes
 
 The package contains different classes. Each class contains methods that provide a solution for certain problems.
 
-### StringUtils
+
+### UriUtil
+
+Helper class for Uri.
+
+```dart
+Future<void> makePhoneCall(String phoneNumber);
+
+```
+
+### StringUtil
 
 Helper class for String operations.
 
